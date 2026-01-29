@@ -1,2 +1,2 @@
-# business_automation
+# IBM Busines Automation
 Public Repo for BusinessAutomation
