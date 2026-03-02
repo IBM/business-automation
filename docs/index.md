@@ -8,13 +8,13 @@
 
 <br/>
 <div align="center">
-    <a href="https://scrapling.readthedocs.io/en/latest/" alt="poster">
-        <img alt="Scrapling" src="assets/cover_light.svg" class="only-light">
-        <img alt="Scrapling" src="assets/cover_dark.svg" class="only-dark">
+    <a href="https://ibm.github.io/business-automation/" alt="poster">
+        <img alt="Scrapling" src="assets/ibm/ibm-blue-logo-transparent-background.png" class="only-light">
+        <img alt="Scrapling" src="assets/ibm/ibm-blue-logo-transparent-background.png" class="only-dark">
     </a>
 </div>
 
-<h2 align="center"><i>Effortless Web Scraping for the Modern Web</i></h2><br>
+<h2 align="center"><i>Let's Create</i></h2><br>
 
 
 ## Top Sponsors 
@@ -77,109 +77,3 @@
 - 🔋 **Ready Docker image**: With each release, a Docker image containing all browsers is automatically built and pushed.
 
 
-## Star History
-Scrapling’s GitHub stars have grown steadily since its release (see chart below).
-
-<div id="chartContainer">
-  <a href="https://github.com/D4Vinci/Scrapling">
-    <img id="chartImage" alt="Star History Chart" loading="lazy" src="https://api.star-history.com/svg?repos=D4Vinci/Scrapling&type=Date" height="400"/>
-  </a>
-</div>
-
-<script>
-const observer = new MutationObserver((mutations) => {
-  mutations.forEach((mutation) => {
-    if (mutation.attributeName === 'data-md-color-media') {
-      const colorMedia = document.body.getAttribute('data-md-color-media');
-      const isDarkScheme = document.body.getAttribute('data-md-color-scheme') === 'slate';
-      const chartImg = document.querySelector('#chartImage');
-      const baseUrl = 'https://api.star-history.com/svg?repos=D4Vinci/Scrapling&type=Date';
-      
-      if (colorMedia === '(prefers-color-scheme)' ? isDarkScheme : colorMedia.includes('dark')) {
-        chartImg.src = `${baseUrl}&theme=dark`;
-      } else {
-        chartImg.src = baseUrl;
-      }
-    }
-  });
-});
-
-observer.observe(document.body, {
-  attributes: true,
-  attributeFilter: ['data-md-color-media', 'data-md-color-scheme']
-});
-</script>
-
-
-## Installation
-Scrapling requires Python 3.10 or higher:
-
-```bash
-pip install scrapling
-```
-
-This installation only includes the parser engine and its dependencies, without any fetchers or commandline dependencies.
-
-### Optional Dependencies
-
-1. If you are going to use any of the extra features below, the fetchers, or their classes, you will need to install fetchers' dependencies and their browser dependencies as follows:
-    ```bash
-    pip install "scrapling[fetchers]"
-    
-    scrapling install           # normal install
-    scrapling install  --force  # force reinstall
-    ```
-
-    This downloads all browsers, along with their system dependencies and fingerprint manipulation dependencies.
-
-    Or you can install them from the code instead of running a command like this:
-    ```python
-    from scrapling.cli import install
-    
-    install([], standalone_mode=False)          # normal install
-    install(["--force"], standalone_mode=False) # force reinstall
-    ```
-
-2. Extra features:
-
-
-     - Install the MCP server feature:
-       ```bash
-       pip install "scrapling[ai]"
-       ```
-     - Install shell features (Web Scraping shell and the `extract` command): 
-         ```bash
-         pip install "scrapling[shell]"
-         ```
-     - Install everything: 
-         ```bash
-         pip install "scrapling[all]"
-         ```
-     Don't forget that you need to install the browser dependencies with `scrapling install` after any of these extras (if you didn't already)
-
-### Docker
-You can also install a Docker image with all extras and browsers with the following command from DockerHub:
-```bash
-docker pull pyd4vinci/scrapling
-```
-Or download it from the GitHub registry:
-```bash
-docker pull ghcr.io/d4vinci/scrapling:latest
-```
-This image is automatically built and pushed using GitHub Actions and the repository's main branch.
-
-## How the documentation is organized
-Scrapling has extensive documentation, so we try to follow the [Diátaxis documentation framework](https://diataxis.fr/).
-
-## Support
-
-If you like Scrapling and want to support its development:
-
-- ⭐ Star the [GitHub repository](https://github.com/D4Vinci/Scrapling)
-- 🚀 Follow us on [Twitter](https://x.com/Scrapling_dev) and join the [discord server](https://discord.gg/EMgGbDceNQ)
-- 💝 Consider [sponsoring the project or buying me a coffee](donate.md) :wink:
-- 🐛 Report bugs and suggest features through [GitHub Issues](https://github.com/D4Vinci/Scrapling/issues)
-
-## License
-
-This project is licensed under the BSD-3 License. See the [LICENSE](https://github.com/D4Vinci/Scrapling/blob/main/LICENSE) file for details.
