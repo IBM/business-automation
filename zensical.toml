@@ -1,6 +1,6 @@
 [project]
-site_name = "IBM Business Automation"
-site_description = "IBM Business Automation"
+site_name = "Business Automation"
+site_description = "Business Automation"
 site_author = "Thomas Yang"
 repo_url = "https://github.com/IBM/business-automation"
 site_url = "https://ibm.github.io/business-automation"
