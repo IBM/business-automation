@@ -9,12 +9,12 @@
 <br/>
 <div align="center">
     <a href="https://ibm.github.io/business-automation/" alt="poster">
-        <img alt="ibm" src="assets/ibm/ibm-blue-logo-transparent-background.png" class="only-light">
+        <img alt="ibm" src="assets/main_cover.png" class="only-light">
         <img alt="ibm" src="assets/ibm/ibm-blue-logo-transparent-background.png" class="only-dark">
     </a>
 </div>
 
-<h2 align="center"><i>Let's Create</i></h2><br>
+<h2 align="center"><i>IBM Business Automation</i></h2><br>
 
 
 ## Key Features
