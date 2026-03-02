@@ -10,10 +10,32 @@ use_directory_urls = false
 exclude_docs = """
 README*.md
 """
+extra_css = ["stylesheets/extra.css"]
 
 nav = [
-    {Introduction = "index.md"},
-    {Overview = "overview.md"}
+  {Introduction = "index.md"},
+  {Overview = "overview.md"},
+  {"Cloud Pak for Business Automation" = "cp4ba.md"},
+  {"Capablities" = [
+        {Overview = "overview-capabilities.md"},
+        {"Intelligent Process Automation" = [
+            {"Business Automation Workflow" = "ibm-product/baw.md"},
+            {"Blueworks Live" = "ibm-product/bwl.md"},
+            {"RPA" = "ibm-product/rpa.md"},
+            {"Process Mining" = "ibm-product/pm.md"}
+        ]},
+        {"Decision Intelligence" = [
+            {"Decision Intelligence" = "ibm-product/di.md"},
+            {"Operational Decision Manager" = "ibm-product/odm.md"}
+        ]},
+        {"Intelligent Content Services" = [
+            {"FileNet Content Manager" = "ibm-product/filenet.md"},
+            {"Content Assistant" = "ibm-product/content-assistant.md"},
+            {"Enterprise Recordss" = "ibm-product/ier.md"},
+            {"Content Manager OnDemand" = "ibm-product/cmod.md"}
+        ]}
+    ]},    
+
 ]
 
 [project.theme]
@@ -33,7 +55,7 @@ features = [
     "navigation.instant.prefetch",
     "navigation.instant.progress",
 #    "navigation.tabs",
-#    "navigation.expand",
+    "navigation.expand",
 #    "toc.integrate",
     "search.share",
     "search.suggest",

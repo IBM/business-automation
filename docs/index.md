@@ -16,14 +16,8 @@
 </div>
 -->
 
-<div align="center">
-    <a href="https://ibm.github.io/business-automation/" alt="poster">
-        <img alt="ibm" src="https://ibm.box.com/s/1nu5wn7r9snjzle7buka99lazriuzptg" class="only-light">
-        <img alt="ibm" src="https://ibm.box.com/s/1nu5wn7r9snjzle7buka99lazriuzptg" class="only-dark">
-        
-    </a>
-</div>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SWOLEPG5O1E?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--
 [//]: #  <h2 align="center"><i>IBM Business Automation</i></h2><br>
