@@ -11,7 +11,6 @@
     <a href="https://ibm.github.io/business-automation/" alt="poster">
         <img alt="ibm" src="assets/main_cover.png" class="only-light">
         <img alt="ibm" src="assets/main_cover.png" class="only-dark">
-        
     </a>
 </div>
 -->
