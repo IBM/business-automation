@@ -11,5 +11,8 @@ With technology applied in both front and back offices to: <br>
 - **Make adaptive decisions** <br>
 - **Manage enterprise data** <br>
 - **Optimize processes** <br>
-- With **minimal human intervention** <br>
+- With **minimal human intervention** <br> 
+
+
+
 
