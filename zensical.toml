@@ -13,9 +13,10 @@ README*.md
 extra_css = ["stylesheets/extra.css"]
 
 nav = [
-  {Introduction = "index.md"},
-  {Overview = "overview.md"},
-  {"Cloud Pak for Business Automation" = "cp4ba.md"},
+  {Introduction = [
+    {Intro = "index.md"},
+    {Overview = "overview.md"},
+  ]},
   {"Capablities" = [
         {Overview = "overview-capabilities.md"},
         {"Intelligent Process Automation" = [
