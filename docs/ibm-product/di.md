@@ -2,30 +2,9 @@
 # Decision Intelligence
 
 
-<div id="media-target" class="video-player"></div>
 
-<style>
-	.video-player {
-		aspect-ratio: 16/9;
-	}
-</style>
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v2.35.0-rc.0/video-player.min.js"></script>
 
-<script src="https://1.www.s81c.com/common/mediacenter/player/loader/development/loader.js"></script>
+<c4d-video-player-container id="my-video" video-id="1_upeu2vuc">
+</c4d-video-player-container>
 
-<script defer>
-	const targetId = 'media-target';
-	const uiConfId = '55474022';
-	const partnerId = '6010023';
-	const entryId = '1_j5140e5y';
-
-	window?.IBM?.Mediacenter?.player?.embed({
-		entryId,
-		targetId,
-		playerType: video
-		partnerId,
-		uiConfId,
-		environment: 'development',
-		autoplay: false
-	});
-</script>
-	
