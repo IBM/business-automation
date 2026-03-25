@@ -31,8 +31,7 @@ nav = [
         {"Intelligent Content Services" = [
             {"FileNet Content Manager" = "ibm-product/filenet.md"},
             {"Content Assistant" = "ibm-product/content-assistant.md"},
-            {"Enterprise Recordss" = "ibm-product/ier.md"},
-            {"Content Manager OnDemand" = "ibm-product/cmod.md"}
+            {"Enterprise Recordss" = "ibm-product/ier.md"}
         ]}
     ]},    
 
