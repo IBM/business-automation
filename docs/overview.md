@@ -1,5 +1,4 @@
 
-
 # Improve <span style="color:blue">*productivity* </span> and <span style="color:blue">*differentiate* </span> with IBM Business Automation
 
 <div align="center">
